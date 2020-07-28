@@ -1,12 +1,12 @@
 {
   "categorias": [
     {
-      "titulo": "Front End",
+      "titulo": "Blackbear",
       "link": "https://www.alura.com.br/formacao-front-end",
       "cor": "#6BD1FF",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": " Página do Youtube",
+        "url": "https://www.youtube.com/channel/UCtAPxCyQaMxr61zBYFCqsFQ"
       },
       "videos": [
         {
@@ -14,62 +14,63 @@
           "url": "https://www.youtube.com/watch?v=iGS07iQaAcg"
         },
         {
-          "titulo": "SEO com React",
-          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+          "titulo": "Queen of Broken Hearts",
+          "url": "https://www.youtube.com/watch?v=sxf3K4Wt4x4"
         },
         {
-          "titulo": "Componentização com VanillaJS #AluraMais",
-          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+          "titulo": "me & ur ghost",
+          "url": "https://www.youtube.com/watch?v=HQM_T-ijA_I"
         },
         {
-          "titulo": "Pare de chutar e aprenda a display: inline #01",
-          "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+          "titulo": "I feel bad",
+          "url": "https://www.youtube.com/watch?v=JfGZABXYFF4"
         },
         {
-          "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-          "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+          "titulo": "Do re mi",
+          "url": "https://www.youtube.com/watch?v=dfzlUHOFQ5k"
         },
         {
-          "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+          "titulo": "I feel 2 much",
+          "url": "https://www.youtube.com/watch?v=mZSOmYKtwu4"
+        },
+        
+        {
+          "titulo": "Hot girl bummer",
+          "url": "https://www.youtube.com/watch?v=yMlKJGKyoCo"
         },
         {
-          "titulo": "Novidades do Angular v9",
-          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
-        },
-        {
-          "titulo": "Base para aprender os frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+          "titulo": "IDFC",
+          "url": "https://www.youtube.com/watch?v=yBpOM-YXjJQ"
         }        
       ]
     },
     {
-      "titulo": "Back End",
+      "titulo": "Drake",
       "cor": "#00C86F",
       "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
+        "text": "Página do Youtube",
+        "url": "https://www.youtube.com/channel/UCByOQJjav0CUDwxCk-jVNRQ"
       },
       "videos": [
         {
-          "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+          "titulo": "Toosie Slide",
+          "url": "https://www.youtube.com/watch?v=xWggTb45brM"
         },
         {
-          "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+          "titulo": "Gods Plan",
+          "url": "https://www.youtube.com/watch?v=xpVfcZ0ZcFM"
         },
         {
-          "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+          "titulo": "In my Feelings",
+          "url": "https://www.youtube.com/watch?v=DRS_PpOrUZ4"
         },
         {
-          "titulo": "API: Dicionário do Programador",
-          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+          "titulo": "Look Alive",
+          "url": "https://www.youtube.com/watch?v=NV-3s2wwC8c"
         }, 
         {
-          "titulo": "Usando Git Direito",
-          "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+          "titulo": "When to Say", 
+          "url": "https://www.youtube.com/watch?v=0jz0GAFNNIo"
         }
       ]
     },
