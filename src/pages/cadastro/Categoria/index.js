@@ -76,7 +76,7 @@ function CadastroCategoria() {
         />
 
         <FormField
-          label="Descrição:"
+          label="Descrição"
           type="textarea"
           name="descricao"
           value={values.descricao}
@@ -118,10 +118,18 @@ function CadastroCategoria() {
         </Button>
       </form>
 
+      {
+        categorias.length === 0 && (
+          <div>
+            Sem Nenhuma Categoria
+          </div>
+        )
+      }
+
       <ul>
-        {categorias.map((categoria, indice) => (
+        {categorias.map((categoria) => (
           // eslint-disable-next-line react/no-array-index-key
-          <li key={`${categoria}${indice}`}>
+          <li key={`${categoria.nome}`}>
             {categoria.titulo}
           </li>
         ))}
