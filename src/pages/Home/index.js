@@ -1,11 +1,10 @@
+/* eslint-disable no-console */
 import React, { useEffect, useState } from 'react';
-// import Menu from '../../components/Menu';
 // import dadosIniciais from '../../data/dados_iniciais.json';
 import BannerMain from '../../components/BannerMain';
 import Carousel from '../../components/Carousel';
-// import Footer from '../../components/Footer';
-import categoriasRepository from '../../repositories/categorias';
 import PageDefault from '../../components/PageDefault';
+import categoriasRepository from '../../repositories/categorias';
 
 function Home() {
   const [dadosIniciais, setDadosIniciais] = useState([]);
@@ -14,16 +13,13 @@ function Home() {
     // http://localhost:8080/categorias?_embed=videos
     categoriasRepository.getAllWithVideos()
       .then((categoriasComVideos) => {
-        // eslint-disable-next-line no-console
         console.log(categoriasComVideos[0].videos[0]);
         setDadosIniciais(categoriasComVideos);
       })
       .catch((err) => {
-        // eslint-disable-next-line no-console
         console.log(err.message);
       });
   }, []);
-
   return (
     <PageDefault paddingAll={0}>
       {dadosIniciais.length === 0 && (<div>Loading...</div>)}
@@ -36,7 +32,6 @@ function Home() {
                 videoTitle={dadosIniciais[0].videos[0].titulo}
                 url={dadosIniciais[0].videos[0].url}
                 videoDescription={dadosIniciais[0].videos[0].description}
-              //videoDescription="Teste"
               />
               <Carousel
                 ignoreFirstVideo

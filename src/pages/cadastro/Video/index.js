@@ -27,6 +27,15 @@ function CadastroVideo() {
 
   return (
     <PageDefault>
+
+      <Link to="/cadastro/categoria">
+        Cadastrar Categoria
+      </Link>
+
+      <h1>
+
+
+      </h1>
       <h1>Cadastro de Video</h1>
 
       <form onSubmit={(event) => {
@@ -48,6 +57,7 @@ function CadastroVideo() {
           });
       }}
       >
+
         <FormField
           label="Título do Vídeo"
           name="titulo"
@@ -78,9 +88,7 @@ function CadastroVideo() {
       <br />
       <br />
 
-      <Link to="/cadastro/categoria">
-        Cadastrar Categoria
-      </Link>
+
     </PageDefault>
   );
 }
