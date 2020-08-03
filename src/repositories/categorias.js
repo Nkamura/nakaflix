@@ -10,7 +10,7 @@ function getAll() {
                 return resposta;
             }
 
-            throw new Error('Não foi possível pegar os dados :( 1');
+            throw new Error('Não foi possível pegar os dados :( getall');
         });
 }
 
@@ -22,7 +22,7 @@ function getAllWithVideos() {
                 return resposta;
             }
 
-            throw new Error('Não foi possível pegar os dados :( 2');
+            throw new Error('Não foi possível pegar os dados :( getallvideos');
         });
 }
 
