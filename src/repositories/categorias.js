@@ -3,27 +3,27 @@ import config from '../config';
 const URL_CATEGORIES = `${config.URL_BACKEND_TOP}/categorias`;
 
 function getAll() {
-    return fetch(`${URL_CATEGORIES}`).then(async (respostaDoServidor) => {
-        if (respostaDoServidor.ok) {
-            const resposta = await respostaDoServidor.json();
-            return resposta;
-        }
+    return fetch(`${URL_CATEGORIES}`)
+        .then(async (respostaDoServidor) => {
+            if (respostaDoServidor.ok) {
+                const resposta = await respostaDoServidor.json();
+                return resposta;
+            }
 
-        throw new Error('Não foi possível pegar os dados :( getall');
-    });
+            throw new Error('Não foi possível pegar os dados getall :(');
+        });
 }
 
 function getAllWithVideos() {
-    return fetch(`${URL_CATEGORIES}?_embed=videos`).then(
-        async (respostaDoServidor) => {
+    return fetch(`${URL_CATEGORIES}?_embed=videos`)
+        .then(async (respostaDoServidor) => {
             if (respostaDoServidor.ok) {
-                const response = await respostaDoServidor.json();
-
-                return response;
+                const resposta = await respostaDoServidor.json();
+                return resposta;
             }
-            throw new Error('Não foi possível se conectar ao servidor!');
-        }
-    );
+
+            throw new Error('Não foi possível pegar os dados getallwithvideos :(');
+        });
 }
 
 export default {
